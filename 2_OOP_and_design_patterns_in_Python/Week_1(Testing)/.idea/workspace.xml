@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0257879-3f93-4398-a924-073efc76a467" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Testing_factorize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Testing_factorize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Testing_factorize.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Week_1(Testing)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week_1(Testing)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Twisted Trial in Testing_factorize.py">
+    <configuration name="Twisted Trial for Testing_factorize.TestFactorize" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Week_1(Testing)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Testing_factorize.TestFactorize&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Twisted Trial for Testing_factorize.TestFactorize.test_many_multipliers" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Week_1(Testing)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Testing_factorize.TestFactorize.test_many_multipliers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Twisted Trial for Testing_factorize.TestFactorize.test_negative" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Week_1(Testing)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Testing_factorize.TestFactorize.test_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Twisted Trial for Testing_factorize.TestFactorize.test_wrong_types_raise_exception" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Week_1(Testing)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Testing_factorize.TestFactorize.test_wrong_types_raise_exception&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Twisted Trial in Testing_factorize.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Week_1(Testing)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Testing_factorize.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize.test_negative" />
+      <item itemvalue="Python tests.Twisted Trial in Testing_factorize.py" />
+      <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize.test_many_multipliers" />
+      <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize" />
+      <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize.test_wrong_types_raise_exception" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Twisted Trial in Testing_factorize.py" />
+        <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize.test_many_multipliers" />
+        <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize" />
+        <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize.test_wrong_types_raise_exception" />
+        <item itemvalue="Python tests.Twisted Trial for Testing_factorize.TestFactorize.test_negative" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0257879-3f93-4398-a924-073efc76a467" name="Default" comment="" />
+      <created>1533801744119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533801744119</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 12h 29m 22s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 12h 29m 42s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 12h 29m 57s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 12h 31m 33s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_Testing_factorize_TestFactorize - 2018.08.09 at 12h 36m 03s.xml">
+      <configuration name="Twisted Trial for Testing_factorize.TestFactorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_Testing_factorize_TestFactorize_test_many_multipliers - 2018.08.09 at 12h 36m 42s.xml">
+      <configuration name="Twisted Trial for Testing_factorize.TestFactorize.test_many_multipliers" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 12h 53m 13s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 12h 53m 44s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 15h 26m 18s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_Testing_factorize_py - 2018.08.09 at 15h 26m 24s.xml">
+      <configuration name="Twisted Trial in Testing_factorize.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Testing_factorize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

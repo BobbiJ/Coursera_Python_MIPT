@@ -1,0 +1,97 @@
+Internal Server Error: /api/v1/goods/10/reviews/
+Traceback (most recent call last):
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\utils\decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LocalAdmin\Documents\Projects\Coursera pj\Python_prog\3_Creating_Web_Services\Solution\Processing_data_on_server\somemart\views.py", line 41, in post
+    item=Item.objects.get(pk=item_id))
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\db\models\query.py", line 403, in get
+    self.model._meta.object_name
+somemart.models.DoesNotExist: Item matching query does not exist.
+"POST /api/v1/goods/10/reviews/ HTTP/1.1" 500 27
+"POST /api/v1/goods/10/reviews/ HTTP/1.1" 400 18
+"POST /api/v1/goods/ HTTP/1.1" 201 9
+Not Found: /api/v1/goods/10/reviews/
+"POST /api/v1/goods/10/reviews/ HTTP/1.1" 404 23
+"POST /api/v1/goods/10/reviews/ HTTP/1.1" 400 51
+"GET /api/v1/goods/1 HTTP/1.1" 301 0
+Not Found: /api/v1/goods/1/
+"GET /api/v1/goods/1/ HTTP/1.1" 404 23
+"POST /api/v1/goods/ HTTP/1.1" 201 9
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+Not Found: /api/v1/goods/6/
+"GET /api/v1/goods/6/ HTTP/1.1" 404 23
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+Not Found: /api/v1/goods/6/
+"GET /api/v1/goods/6/ HTTP/1.1" 404 25
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+Not Found: /api/v1/goods/6/
+"GET /api/v1/goods/6/ HTTP/1.1" 404 25
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+Internal Server Error: /api/v1/goods/6/
+Traceback (most recent call last):
+  File "C:\Users\LocalAdmin\Documents\Projects\Coursera pj\Python_prog\3_Creating_Web_Services\Solution\Processing_data_on_server\somemart\views.py", line 63, in get
+    return JsonResponse(entries, status=200)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\http\response.py", line 503, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\LocalAdmin\Documents\Projects\Coursera pj\Python_prog\3_Creating_Web_Services\Solution\Processing_data_on_server\somemart\views.py", line 65, in get
+    return JsonResponse({'error': e}, status=404)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\http\response.py", line 509, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Environment\Anaconda\envs\cours_pyth\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Environment\Anaconda\envs\cours_pyth\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Environment\Anaconda\envs\cours_pyth\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\LocalAdmin\.virtualenvs\Processing_data_on_server-gcZRMXV0\lib\site-packages\django\core\serializers\json.py", line 104, in default
+    return super().default(o)
+  File "C:\Environment\Anaconda\envs\cours_pyth\Lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'TypeError' is not JSON serializable
+"GET /api/v1/goods/6/ HTTP/1.1" 500 27
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 84
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 41
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 42
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 51
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 36
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 36
+"GET /api/v1/goods/6 HTTP/1.1" 301 0
+"GET /api/v1/goods/6/ HTTP/1.1" 200 135
+"POST /api/v1/goods/ HTTP/1.1" 201 9
